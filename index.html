@@ -1,58 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio Estudiantil</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mi portafolio estudiantil</title>
 </head>
 <body>
     <!-- encabezado -->
-    <header>
-        <img src="/img/panda.jpg" alt="Foto de panda">
+    <header class="portafolio-header">
 
-        <div>
-            <h1> ¡Hola! Soy Jaime</h1>
-            <p>
-                Estudiante de Bachillerato | Futuro diseñador | Programador
+        <img src="/img/panda.jpg" alt="Foto de Panda" class="profile-img">
+
+        <div class="header-info">
+            <h1>¡Hola! Soy Jaime</h1>
+            <p class="subtitle">
+                Estudiante de Bachillerato | Futuro Diseñador / Programador
             </p>
-            <p>
-                Me apasiona el arte, la música y los libros. Bienvenido a mi rincón de la Web.
+            <p class="bio">
+                Me apasiona la tecnología, la música y el arte. Bienvenido a mi rincón de la Web.
             </p>
         </div>
+
     </header>
-    <!-- Cuerpo -->
+
+    <!-- cuerpo -->
     <main>
-        <section>
+
+        <section class="skills-section">
+
             <h2>Mis habilidades</h2>
 
-            <div>
+            <div class="skills-container">
                 <span>HTML5</span>
                 <span>CSS3</span>
                 <span>Trabajo en Equipo</span>
                 <span>Creatividad</span>
             </div>
+
         </section>
 
-        <section>
+        <section class="project-section">
+            
             <h2>Mis proyectos</h2>
 
-            <div>
-                <div>
-                    <h3>Proyecto Escolar: Innohealt</h3>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    
+                    <h3>Proyecto Escolar: Innohealth</h3>
                     <p>
-                        Proyecto desarrollado con Arduino con la finalidad de crear prototipos de bajo costo que ayuden a controlar pulso, oxígeno y postura corporal.
+                        Proyecto desarrollado con Arduino con la finalidad de crear prototipos de bajo costo y que ayuden a controlar el pulso, oxígeno y postura corporal.
                     </p>
 
-                    <h3>Proyecto Escolar 2</h3>
+                </div>
+
+                <div class="project-card">
+
+                    <h3>Proyecto escolar 2</h3>
                     <p>
-                        Desarrollo una página web donde muestro las habilidades que voy aprendiendo dentro de la asignatura.
+                        Desarrollo de una página web donde muestro las habilidades que voy aprendiendo dentro de la asignatura.
                     </p>
+                    
                 </div>
             </div>
         </section>
+        
     </main>
-    <!-- Pie de página -->
+
+    <!-- Pié de página -->
     <footer>
+
+        <p>Desarrollado por Jaime Proaño</p>
+        <p>© 2026 - Creado en la clase de informática</p>
 
     </footer>
 
